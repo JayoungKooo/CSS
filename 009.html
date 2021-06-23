@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=decice-width, initial-scale=1.0">
+    <style>
+        .example {
+            padding: 20px;
+            color: white;
+        }
+
+
+        @media only screen and (max-width: 600px) {
+            .example {
+                background: tomato;
+            }
+        }
+
+        @media only screen and (min-width: 600px) {
+            .example {
+                background: green;
+            }
+        }
+
+        @media only screen and (min-width: 768px) {
+            .example {
+                background: maroon;
+            }
+        }
+
+
+        @media only screen and (min-width: 992px) {
+            .example {
+                background: orange;
+            }
+        }
+
+        @media only screen and (min-width: 1200px) {
+            .example {
+                background: pink;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h2>typical media query breakpoints</h2>
+    <p class="example">Resize the browser window to see how the background color of this paragraph </p>
+
+</body>
+
+</html>

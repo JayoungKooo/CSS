@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <title>Page Title</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    .header {
+      padding: 60px;
+      text-align: center;
+      background: #e6f8f4;
+      color: #ff9ae1;
+    }
+
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      float: left
+    }
+
+    .side {
+      flex: 20%;
+      height: auto;
+      background-color: lavenderblush;
+      padding: 20px;
+      ;
+    }
+
+    .rightside {
+      flex: 20%;
+      height: auto;
+      background-color: lavenderblush;
+      padding: 20px;
+    }
+
+    .main {
+      flex: 60%;
+      background-color: #f4ffe7;
+      padding: 80px;
+    }
+
+
+    .fakeimg {
+      background-color: hsl(80, 90%, 80%);
+      width: 100%;
+      padding: 30px;
+      text-align: center;
+    }
+
+
+    .footer {
+      padding: 20px;
+      text-align: center;
+      background: #fdd5f3;
+    }
+
+    .navbar a {
+      color: white;
+      padding: 14px 20px;
+      text-decoration: none;
+      text-align: center;
+    }
+
+    .navbar a:hover {
+      background-color: hsl(80, 90%, 80%);
+      color: olivedrab;
+      border: olivedrab dotted 3px;
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: center;
+      /* 메뉴 가운데로  */
+      flex-direction: column;
+    }
+
+    .bar {
+      background-image: url(https://www.urbanbrush.net/web/wp-content/uploads/edd/2019/04/urbanbrush-20190423071752459851.png);
+      width: 100%;
+      height: 1cm;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="header">
+    <h1
+      style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-shadow: 1px 1px 15px pink; ">
+      My Website</h1>
+    <p>With a <b style="text-shadow: 1px 1px 10px pink; ">flexible</b> layout.</p>
+  </header>
+
+  <div class="bar">
+
+  </div>
+
+  <div class="row">
+    <aside class="side">
+      <h2
+        style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">
+        About Me...</h2>
+
+      <img style="width: 100%; border: 5px dashed gold;"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCu-fzU7tHGEyua3IcS0zQgWzfY4ZbtTRYmw&usqp=CAU"
+        alt="">
+
+      <p>hi</p>
+      <p>햄스터입니다.
+      </p>
+      <p>Lorem ipsum dolor sit ame.</p>
+      <p>아래주소로 연락주세요!</p>
+      <p>감사합니다.</p>
+      <br>
+      <div class="fakeimg" style="height:200px;">
+        <h3 style="font-family: Georgia, 'Times New Roman', Times, serif;">-contact-</h3>
+        <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><i
+            class="fas fa-phone-volume"></i> 010-00000</p>
+        <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><i
+            class="fas fa-mail-bulk"></i> jay0ng@gmail</p>
+
+      </div>
+    </aside>
+
+
+
+    <main class=" main">
+      <h3 style="color: teal;">Work Experiance</h3>
+      <h5>Hire me, June 22, 2021</h5>
+
+      <img style="width: 100%;" src="https://cdn.crowdpic.net/list-thumb/thumb_l_B7DC708C50FC16DE455BE175B23D6D36.jpg"
+        alt="">
+      <br></br>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+        ullamco.</p>
+      <br></br>
+    </main>
+
+
+    <aside class="rightside">
+
+      <h1 style="text-align: center; color: salmon; background-color: seashell;">MENU</h1>
+
+      <nav class="navbar">
+        <a href="#">HOME</a>
+
+        <a href="#">PHOTO</a>
+
+        <a href="#">RESUME</a>
+
+        <a href="#">PROFILE</a>
+
+        <a href="#">NOTE</a>
+
+        <a href="#">BLOG</a>
+
+
+      </nav>
+
+
+
+    </aside>
+
+  </div>
+
+
+
+</body>
+
+
+</html>
